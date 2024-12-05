@@ -33,7 +33,7 @@ export const BlogItem = ({ blog }:{ blog:typeof blogs[0]}) => {
 	const { title, description, author, date, image } = blog;
 
 	return (
-		<article className="rounded-lg overflow-hidden shadow-lg bg-white pb-3">
+		<article className="rounded-lg overflow-hidden w-full shadow-lg bg-white pb-3">
 			<div className="relative">
 				<img src={image} alt={title} className="h-auto w-full" />
 				<div className="absolute top-0 left-0 px-6 py-3 font-bold bg-white  text-xl leading-6 rounded-br-lg">

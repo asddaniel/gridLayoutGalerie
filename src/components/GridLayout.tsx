@@ -157,15 +157,17 @@ main {
 
 
 .customgrid {
-	width: 100%;
-	max-width: 1440px;
-	margin: 0 auto;
+	width: 100vw;
+	background: #0ff;
+	margin: 0px;
+	padding:0px;
 	padding-bottom: 10rem;
 }
 
 .grid__item {
 	display: flex;
 	justify-content: center;
+	width: 100%;
 	margin: 0 0 0 0;
 	cursor: pointer;
 	
@@ -173,7 +175,7 @@ main {
 
 .box {
 	position: relative;
-	margin: 2rem;
+	
 }
 
 .box__title {
@@ -514,7 +516,7 @@ main {
 						<div className="box__shadow"></div>
 						<img className="box__img box__img--original" src={app.image} alt="Some image"/>
 						<h3 className="box__title"><span className="box__title-inner">{app.title}</span></h3>
-						<h4 className="box__text"><span className="box__text-inner">BEST</span></h4>
+						<h4 className="box__text"><span className="box__text-inner">ASDDANIEL</span></h4>
 						
 					</div>
 					<p className="overlay__content">{app.description}</p>
